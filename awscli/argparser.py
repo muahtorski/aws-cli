@@ -66,6 +66,7 @@ class CommandAction(argparse.Action):
 class CLIArgParser(argparse.ArgumentParser):
     def print_help(self):
         print(USAGE)
+
     Formatter = argparse.RawTextHelpFormatter
 
     # When displaying invalid choice error messages,
